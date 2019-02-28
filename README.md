@@ -14,7 +14,7 @@ The project we was working on the past week
 ```
 
    - then we entered the password for the key 
-4) - we created the key.proprietaries file in android/ folder
+4) - we created the key.proprietaries file in android/ 
    - then we added the following code in it : 
 ```
 	storePassword = the password we used in the key
