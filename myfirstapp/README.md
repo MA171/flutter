@@ -23,10 +23,9 @@ The project we was working on the past week
 	def keystorePropertiesFile = rootProject.file("key.properties")
 	def keystoreProperties = new Properties()
 	keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-  
 ```
 
-	- then after android { , we added : 
+   - then after android { , we added : 
   
   ```dart
 	signingConfigs{
@@ -40,6 +39,10 @@ The project we was working on the past week
       
    ```
 
-6)	- finally , we released the application using flutter build apk -release command in the terminal window 
+6)	- finally , we released the application using 
+```
+flutter build apk -release
+```
+command in the terminal window 
 
 ## if you have any questions you can contact me , thank you for attending the course ♥
